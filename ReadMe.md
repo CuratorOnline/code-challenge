@@ -11,7 +11,7 @@ As with all technology solutions and designs there are tradeoffs and concerns th
 
 Time considerations, we understand that code solutions take personal time and would expect engineers to spend no more than a few hours solving these problems. As we work remotely personal time management is critical for people to be successful.  
 
-The code test is one aspect of our review process, so feel free to submit what you achieved in the time you allocated. We are not looking for perfect just looking to better know you.
+The code test is one aspect of our review process, so feel free to submit what you achieved in the time you allocated. Obviously, the seniority of the role you are applying sets expectations for your solution. Just know we are not looking for perfect just looking to know you.
 
 To keep the recruitment process moving we would expect to receive a submission in a few days of sending out the invitation. Please let us know if you would need longer.
 
@@ -34,18 +34,44 @@ Returns: "cfjkpquvwxz"
 Returns: "abcdefghijklmnopqrstuvwxyz"
 
 ## Problem Two - Transaction Accounting
-At Garmentier we deal with a number of sales that are generated from our platform. Through integrations we receive feeds of transactions that are converted and need to associate those identities in our system. To help our customers understand how they are performing we generate visualizations, views and reports based on this associated data that they can interact with.
-
-You will need to create a webhook endpoint(s) that will be called with transaction data. This endpoint will need to process the transactions and associate them to known Company, Stylists and Clients. Information for Company, Stylists and Clients is provided as a json file.
-
-You will also need to create an endpoint(s) (API) that can be used to query the associated transactional. This endpoint will be used for viewing individual transactions, reporting on Company, Stylist performance over a time frame.
-
-Additional points for interactive UI or visualization of this data.
+At Garmentier we deal with a number of sales that are generated from our platform. Through integrations we receive feeds of transactions that have converted and need to be associated to identities within our system. This data is then used generate visualizations, views and reports to better help Garmentier and our customers understand their business.
 
 ### Concerns
-Due to the nature of integrations transaction partners do not provide common formats or consistent data. This means that not all transaction records provide granular identification to associate to all fields.
+Garmentier integrates with Third Party providers which we have little control over. This means integrations may vary by:-
+- Data formats (field names, data types etc)
+- Data granularity (which identifiers are provided in a feed)
+- Integration Types (Polling vs Notification, Event vs Batch)
 
-Also take into consideration that Garmentier is growing and adding new transaction partners frequently and we want to reduce the overhead of turning new partners on.
+Other considerations include that Garmentier is growing and continually adding new transaction partners, as well as company and clients. These means we are looking for a scalable system where:-
+- overhead of turning on new partners is low
+- ability to process and store an increasing number of transactions
+
+### Deliverables
+#### Design 
+Taking into account the above concerns please present a design on how you would you design system to support them.
+
+Ideally, outlining the tradeoffs you have considered and how you came to your decision. The level of detail is left up to you. Diagrams are a great medium to help build understanding.
+
+#### POC Implementation
+Provided in this repo is a couple example partner transaction data files along with Garmentier's company config. 
+
+Please provide a code example of how you would process these data sets, associating it to different Garmentier identities, as well as normalizing the data for internal querying later. Please remember to take the considerations of growth and scale mentioned above.
+
+Along with code please provide documentation on how to build and execute your solution. Implementation is left up to you this could be a script, API or application.
+
+#### Data Considerations (Query and Reporting)
+The combination of the two datasets provides a lot of opportunity for future product features. We would like to get your thoughts on what could be achieved with this data.
+
+Please document the schema of the data you will be storing (ie. JSON scheme, Entity Diagram). Also provide some documentation on what you decided to keep and why?
+
+Here are some other questions for you to consider around your design and solution:-
+- What type of data storage would you use?
+- How would you interact with this data?
+- What question can be asked from data you have stored?
+- What question do you think are valuable to ask and why?
+- Do data considerations have any impact on your design or POC implementation?
+- What further questions would you ask to help ensure your design stands the test of time?
+- What other considerations should we take into account?
 
 ## Submission
 When you have your final solution to all problems, please reply to the email that was sent to you with your solution as a .zip, .tar, or .tar.gz attachment. 
