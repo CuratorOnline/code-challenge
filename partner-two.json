@@ -1,0 +1,69 @@
+{
+  "transactions": [
+    {
+      "id": "tsc-0001",
+      "date": "01-10-2020",
+      "total_amount": 500.0,
+      "tax": 50.0,
+      "commission": 50.0,
+      "commission_rate": 50.0,
+      "c_id": "company-123",
+      "c2_id": "client-joe-001",
+      "owner": "jeff-styled-up-willis",
+      "sku": "vlb-suit-jacket",
+      "brand": "Vince",
+      "size": "L",
+      "color": "Blue",
+      "description": "Suit Jacket"
+    },
+    {
+      "id": "tsc-0002",
+      "date": "03-10-2020",
+      "total_amount": 50.0,
+      "tax": 5.0,
+      "commission": 5.0,
+      "commission_rate": 5.0,
+      "c_id": "company-123",
+      "c2_id": "client-jane-001",
+      "owner": "jeff-styled-up-willis",
+      "sku": "vlb-suit-pants",
+      "brand": "Vince",
+      "size": "S",
+      "color": "Black",
+      "description": "Suit Pants"
+    },
+    {
+      "id": "tsc-0003",
+      "date": "05-10-2020",
+      "total_amount": 150.0,
+      "tax": 15.5,
+      "commission": 5.5,
+      "commission_rate": 1.5,
+      "c_id": "company-456",
+      "c2_id": "client-chet-001",
+      "owner": "stylist-peter-456",
+      "sku": "056-89-083",
+      "brand": "Rag & Bone",
+      "size": "M",
+      "color": "Purple",
+      "description": "Yoga Pants"
+    },
+    {
+      "id": "tsc-0004",
+      "date": "05-10-2020",
+      "total_amount": 155.0,
+      "tax": 15.5,
+      "commission": 5.5,
+      "commission_rate": 1.5,
+      "c_id": "company-456",
+      "c2_id": "client-chet-001",
+      "owner": "stylist-peter-456",
+      "sku": "056-89-083R",
+      "brand": "Rag & Bone",
+      "size": "M",
+      "color": "Red",
+      "description": "Yoga Pants"
+    }        
+
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "transactions": [
+    {
+      "id": "transaction-id-0001",
+      "date": "01-10-2020",
+      "paid": 500.0,
+      "tax": 50.0,
+      "commission": 30.0,
+      "user_id": "client-joe-001",
+      "prod_id": "vlb-suit-jacket",
+      "brand": "Vince",
+      "size": "L",
+      "color": "Blue",
+      "description": "Suit Jacket"
+    },
+    {
+      "id": "transaction-id-0002",
+      "date": "03-10-2020",
+      "paid": 50.0,
+      "tax": 5.0,
+      "commission": 5.0,
+      "user_id": "client-jane-001",
+      "prod_id": "bally-suit-pants",
+      "brand": "Bally",
+      "size": "S",
+      "color": "Black",
+      "description": "Suit Pants"
+    },
+    {
+      "id": "transaction-id-0003",
+      "date": "05-10-2020",
+      "paid": 150.0,
+      "tax": 15.5,
+      "commission": 5.5,
+      "user_id": "client-chet-001",
+      "prod_id": "lululemon-083",
+      "brand": "Lululemon",
+      "size": "M",
+      "color": "Purple",
+      "description": "Yoga Pants"
+    },
+    {
+      "id": "transaction-id-0004",
+      "date": "05-10-2020",
+      "paid": 155.0,
+      "tax": 15.5,
+      "commission": 5.5,
+      "user_id": "client-rosie-001",
+      "prod_id": "lululemon-89-083R",
+      "brand": "Lululemon",
+      "size": "M",
+      "color": "Red",
+      "description": "Yoga Pants"
+    }        
+  ]
+}

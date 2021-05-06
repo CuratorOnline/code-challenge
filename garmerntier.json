@@ -1,0 +1,78 @@
+{
+  "companies": [
+    {
+      "id": "company-123",
+      "name": "Styles are Us",
+      "slug": "styles-are-us",
+      "stylists": [
+        {
+          "id": "stylist-jeff-123",
+          "name": "Jeff (Styled Up) Willis",
+          "slug": "jeff-styled-up-willis",
+          "clients": [
+            {
+              "id": "client-joe-001",
+              "name": "Joe Bloggs"    
+            },
+            {
+              "id": "client-jane-001",
+              "name": "Jane Doe"    
+            }
+          ]
+        },
+        {
+          "id": "stylist-123",
+          "name": "Ryan Fitz",
+          "slug": "ryan-fitz",
+          "clients": [
+            {
+              "id": "client-sarah-001",
+              "name": "Sarah Jane"    
+            },
+            {
+              "id": "client-jane-002",
+              "name": "Jane Marshall"    
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "company-456",
+      "name": "We Style You",
+      "slug": "we-style-you",
+      "stylists": [
+        {
+          "id": "stylist-peter-456",
+          "name": "Peter Pan",
+          "slug": "peter-pan",
+          "clients": [
+            {
+              "id": "client-chet-001",
+              "name": "Chet Bloggs"    
+            },
+            {
+              "id": "client-sussan-001",
+              "name": "Sussan Doe"    
+            }
+          ]
+        },
+        {
+          "id": "stylist-peter-123",
+          "name": "Peter Fitz",
+          "slug": "peter-fitz",
+          "clients": [
+            {
+              "id": "client-rosie-001",
+              "name": "Rosie Phillips"    
+            },
+            {
+              "id": "client-jane-003",
+              "name": "Jane Fields"    
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
