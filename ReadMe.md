@@ -34,7 +34,7 @@ Returns: "cfjkpquvwxz"
 Returns: "abcdefghijklmnopqrstuvwxyz"
 
 ## Problem Two - Transaction Accounting
-At Garmentier we deal with a number of sales that are generated from our platform. Through integrations we receive feeds of transactions that have converted and need to be associated to identities within our system. This data is then used generate visualizations, views and reports to better help Garmentier and our customers understand their business.
+At Garmentier we deal with a number of sales that are generated from our platform. Through integrations we receive feeds of transactions that have converted and need to be associated to identities within our system. This data is then used to generate visualizations, views and reports to better help Garmentier and our customers understand their business.
 
 ### Concerns
 Garmentier integrates with Third Party providers which we have little control over. This means integrations may vary by:-
@@ -48,7 +48,7 @@ Other considerations include that Garmentier is growing and continually adding n
 
 ### Deliverables
 #### Design 
-Taking into account the above concerns please present a design on how you would you design system to support them.
+Taking into account the above concerns please present a design system to support them.
 
 Ideally, outlining the tradeoffs you have considered and how you came to your decision. The level of detail is left up to you. Diagrams are a great medium to help build understanding.
 
@@ -78,9 +78,9 @@ When you have your final solution to all problems, please reply to the email tha
 
 Do not include any binaries, only source code, as this might trigger spam filters or be rejected for size.
 
-Please provide any accompanying documentation on how to build, run and interact (if possible) with you code.
+Please provide any accompanying documentation on how to build, run and interact (if possible) with your code.
 
 ## About Engineering at Garmentier
 Engineering at Garmentier is not only about writing code – we are aiming to empower product teams who work collaboratively to conceptualize new features and bring them to life. We aim to build intuitive, user-friendly software using industry best practices and believe that delivering incrementally, using prototypes, and incorporating user feedback early, mitigate risk and help ensure success. We measure ourselves on our customer’s success, doing our best to embrace humility, diversity, and intentionality in how we make technical decisions.
 
-Came across this problem by accident and interested in an engineering role at [Garmentier](http://www.garmentier.co). Send us an email with your resume to careers@garmentier.co
+Came across this problem by accident and interested in an engineering role at [Garmentier](http://www.garmentier.co)? Send us an email with your resume to careers@garmentier.co
