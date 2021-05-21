@@ -1,5 +1,5 @@
-## Garmentier Unattended Code
-Welcome to the Garmentier Code Test.
+## Garmentier Unattended Code Challenge
+Welcome to the Garmentier Code Challenge.
 
 Our goals for this take home code test is to get to know how you think through a problem. We are also looking to evaluate what you value when writing code and how that aligns with Garmentier engineering values.
 
